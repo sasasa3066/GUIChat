@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.Chat">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="550" height="524"/>
+    </constraints>
+    <properties/>
+    <border type="none">
+      <title-color color="-16777216"/>
+    </border>
+    <children>
+      <grid id="25aae" binding="southPanel" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties>
+          <enabled value="false"/>
+          <foreground color="-14279040"/>
+          <toolTipText value="0"/>
+        </properties>
+        <clientProperties>
+          <html.disable class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+        <border type="line">
+          <font/>
+          <title-color color="-14279040"/>
+          <color color="-14279040"/>
+        </border>
+        <children>
+          <component id="4c3dc" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+            <constraints/>
+            <properties>
+              <columns value="20"/>
+              <text value="127.0.0.1"/>
+            </properties>
+            <clientProperties>
+              <caretAspectRatio class="java.lang.Double" value="10.0"/>
+              <caretWidth class="java.lang.Integer" value="20"/>
+              <html.disable class="java.lang.Boolean" value="true"/>
+            </clientProperties>
+          </component>
+          <component id="a7f0c" class="javax.swing.JButton" binding="sendButton">
+            <constraints/>
+            <properties>
+              <text value="Send"/>
+            </properties>
+          </component>
+          <component id="3f3ef" class="javax.swing.JButton" binding="recordButton">
+            <constraints/>
+            <properties>
+              <text value="Record"/>
+            </properties>
+          </component>
+          <component id="e90b" class="javax.swing.JButton" binding="cleanButton">
+            <constraints/>
+            <properties>
+              <text value="Clean"/>
+            </properties>
+          </component>
+          <component id="1fe4c" class="javax.swing.JButton" binding="quakeButton">
+            <constraints/>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="11"/>
+              <text value="quake"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="600a1" binding="centerPanel" layout-manager="BorderLayout" hgap="4" vgap="3">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+        </properties>
+        <border type="line">
+          <font/>
+          <title-color color="-16777216"/>
+          <color color="-16777216"/>
+        </border>
+        <children>
+          <scrollpane id="56be9">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="9235f" class="javax.swing.JTextArea" binding="messageTextArea">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <columns value="50"/>
+                  <enabled value="false"/>
+                  <font name="Consolas" size="16" style="1"/>
+                  <foreground color="-14279040"/>
+                  <lineWrap value="false"/>
+                  <rows value="5"/>
+                  <wrapStyleWord value="false"/>
+                </properties>
+                <clientProperties>
+                  <caretWidth class="java.lang.Integer" value="0"/>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                </clientProperties>
+              </component>
+            </children>
+          </scrollpane>
+          <scrollpane id="e30a3">
+            <constraints border-constraint="South"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="a5bb" class="javax.swing.JTextArea" binding="messageText">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <enabled value="true"/>
+                  <font name="Consolas" size="16" style="1"/>
+                  <foreground color="-14279040"/>
+                  <lineWrap value="true"/>
+                  <rows value="7"/>
+                  <text value=""/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="true"/>
+                </clientProperties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
