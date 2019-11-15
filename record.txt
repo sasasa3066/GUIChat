@@ -1,0 +1,13 @@
+I say:hello world
+/192.168.1.104:你好 嗎
+/192.168.1.104:今天星期五，天氣晴
+/192.168.1.104:我是誰
+I say:45687
+I say:hello
+/127.0.0.1:hello
+I say:test
+/127.0.0.1:test
+I say:send fuck fu
+
+/127.0.0.1:send fuck fu
+
